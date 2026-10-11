@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# 대용량 테스트 픽스처 (tests/make_fixtures.py 로 재생성)
+tests/fixtures/big_21mb.pdf
+tests/fixtures/exact_20mb.pdf
+.playwright-mcp/
+.omc/
